@@ -22,6 +22,7 @@ def monopoly_with_third_tier
   hash = {:railroads => {}}
   hash[:railroads] = {:pieces => 4, :rent_in_dollars => {}, :names => {}
   }
+  hash[:railroads][:rent_in_dollars] = {}
   return hash
   
   # When you start writing the implementation for this method, copy the Hash
